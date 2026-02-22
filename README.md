@@ -14,11 +14,18 @@ Perfect for testing, debugging, or just having fun.
 - Uses real Stockfish evaluation
 - Always chooses the worst legal move
 - Stable and lightweight
-- Works as Python script or compiled EXE
+- Works as a Python script or compiled EXE
 
 ---
+# METHOD 1: Install pre-built
+- Step 1: Google your processor Instruction Set Extensions (e.g, mine is Intel Core i5-1035G1, so I Google it will be: Intel Core i5-1035G1 Instruction Set Extensions).
+- Step 2: Download the right file for your processor.
+- Step 3: Extract the zip file.
+- Step 4: Put it into a UCI-supported chess GUI.
+- Step 5: Have fun!
+# METHOD 2: Build it yourself
 
-# Requirements
+### Requirements
 
 - Python 3.10+
 - Stockfish executable
@@ -28,21 +35,7 @@ https://stockfishchess.org/download/
 
 ---
 
-# Folder Structure
-
-
-WorstFish/
-│
-├─ WorstFish.py
-├─ README.md
-│
-└─ bin/
-└─ stockfish.exe
-
-
----
-
-# Running from Python
+### Running from Python
 
 
 python WorstFish.py
@@ -66,7 +59,7 @@ bestmove f7f5
 
 ---
 
-# Building EXE (Windows)
+### Building EXE (Windows)
 
 Install PyInstaller:
 
@@ -88,7 +81,7 @@ dist/WorstFish/WorstFish.exe
 
 ---
 
-# Using with En Croissant
+### Using with En Croissant
 
 1. Open En Croissant
 2. Go to Engine Settings
@@ -103,13 +96,13 @@ dist/WorstFish/WorstFish.exe
 Normal engine logic:
 
 
-choose move with highest evaluation
+Choose the move with the highest evaluation
 
 
 WorstFish logic:
 
 
-choose move with lowest evaluation
+Choose the move with the lowest evaluation
 
 
 It evaluates all legal moves using Stockfish, then picks the worst one.
@@ -117,7 +110,6 @@ It evaluates all legal moves using Stockfish, then picks the worst one.
 ---
 
 # Example Game
-
 
 e4 f5
 
