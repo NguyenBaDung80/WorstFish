@@ -27,6 +27,7 @@ Perfect for testing, debugging, or just having fun.
 
 ### Requirements
 
+- Source code
 - Python 3.10+
 - Stockfish executable
 
