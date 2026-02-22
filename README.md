@@ -45,9 +45,13 @@ Test manually:
 
 
 uci
+
 isready
+
 ucinewgame
+
 position startpos moves e2e4
+
 go depth 10
 
 
