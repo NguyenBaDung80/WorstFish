@@ -55,6 +55,7 @@ position startpos moves e2e4
 go depth 10
 
 
+
 Expected output example:
 
 
@@ -90,9 +91,17 @@ dist/WorstFish/WorstFish.exe
 1. Open En Croissant
 2. Go to Engine Settings
 3. Add Engine
-4. Select WorstFish.exe
-5. Start game
+4. Select "Local" from the top
+5. Click on "Binary file" and then choose your Worstfish.exe
+6. Set the engine's name (if asked)
+7. Click the Add button
+8. Enjoy!
 
+### Using with another chess GUI
+1. Open that chess GUI
+2. Find the add engine option
+3. Add worstfish.exe as the engine
+4. Have fun with your new engine
 ---
 
 # How WorstFish works
