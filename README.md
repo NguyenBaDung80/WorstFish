@@ -36,8 +36,9 @@ https://stockfishchess.org/download/
 
 ---
 ### Put stockfish in the correct path
--Rename your stockfish-windows-x86.....exe to stockfish.exe
--Create a folder named bin inside the Python script, and put stockfish.exe there
+- Rename your stockfish-windows-x86.....exe to stockfish.exe
+
+- Create a folder named bin inside the Python script, and put stockfish.exe there
 ### Running from Python
 
 
