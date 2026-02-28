@@ -18,7 +18,7 @@ Perfect for testing, debugging, or just having fun.
 
 ---
 # METHOD 1: Install pre-built
-- Step 1: Google your processor Instruction Set Extensions (e.g, mine is Intel Core i5-1035G1, so I Google it will be: Intel Core i5-1035G1 Instruction Set Extensions for Stockfish).
+- Step 1: Google your processor Instruction Set Extensions (e.g, Mine is Intel Core i5-1035G1, so I Google it will be: Intel Core i5-1035G1 Instruction Set Extensions best for Stockfish).
 - Step 2: Download the right file for your processor.
 - Step 3: Extract the zip file.
 - Step 4: Put it into a UCI-supported chess GUI.
